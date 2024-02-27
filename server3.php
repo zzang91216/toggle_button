@@ -1,7 +1,7 @@
 <?php
-    $host = 'siddb.cq0d2adomrfy.us-west-2.rds.amazonaws.com';
+    $host = 'your host';
     $user = 'rootuser';
-    $pw = 'sidlab517602';
+    $pw = 'your pw';
     $dbName = 'new';
 // Create connection
     $con=mysqli_connect($host, $user, $pw, $dbName);
